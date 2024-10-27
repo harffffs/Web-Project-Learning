@@ -1,0 +1,128 @@
+* { margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ body {display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+       background: #2d2d2e;
+}
+
+/*start-1*/
+
+.card1 {position: relative;
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 0 15px;
+        transition: 0.5s;  
+        margin-top:-500px ;    
+} 
+.card1:hover {padding-left: 500px;}
+.img1 {width: 100px;
+     height: 100px;
+     border-radius: 30px;
+}
+.ImageBox1 {position: absolute;
+           left: 50px;
+           top: -50px; 
+           transform: translateX(-50px) ; 
+           width: 100px;
+           margin-top: 50px;
+           border-radius: 30px;
+           box-shadow: 0 15px 30px #000;
+}
+.ImageBox1 .img1 {position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;              
+}
+.Name1 {text-align: center;
+       padding-left: 5px;
+       padding-top: 15px;
+       color: #000;
+       display: hidden;
+}
+.card1:hover .Name1 {transform: translateX(-250px);}
+
+/*end-1*/
+/*start-2*/
+
+.card2 {position: absolute;
+       width: 100px;
+       height: 100px;
+       background-color: #fff;
+       border-radius: 30px;
+       box-shadow: 0 0 15px;
+       transition: 0.5s;  
+       margin-top:-300px ;    
+} 
+.card2:hover {padding-left: 500px;}
+.img2 {width: 100px;
+       height: 100px;
+       border-radius: 30px;
+}
+.ImageBox2 {position: absolute;
+       left: 50px;
+       top: -50px; 
+       transform: translateX(-50px) ; 
+       width: 100px;
+       margin-top: 50px;
+       border-radius: 30px;
+       box-shadow: 0 15px 30px #000;
+}
+.ImageBox2 img {position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;              
+}
+.Name2 {text-align: center;
+       padding-left: 5px;
+       padding-top: 5px;
+       color: #000;
+       display: hidden;
+}
+.card2:hover .Name2 {transform: translateX(-250px);}
+
+/*end-2*/
+/*start-3*/
+
+.card3 {position: absolute;
+       width: 100px;
+       height: 100px;
+       background-color: #fff;
+       border-radius: 30px;
+       box-shadow: 0 0 15px;
+       transition: 0.5s;  
+       margin-top:-100px ;    
+} 
+.card3:hover {padding-left: 500px;}
+.img3 {width: 100px;
+       height: 100px;
+       border-radius: 30px;
+}
+.ImageBox3 {position: absolute;
+       left: 50px;
+       top: -50px; 
+       transform: translateX(-50px) ; 
+       width: 100px;
+       margin-top: 50px;
+       border-radius: 30px;
+       box-shadow: 0 15px 30px #000;
+}
+.ImageBox3 img {position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;              
+}
+.Name3 {text-align: center;
+       padding-left: -15px;
+       padding-top: 5px;
+       color: #000;
+       display: hidden;
+}
+.card3:hover .Name3 {transform: translateX(-250px);}
+
+/*end-3*/

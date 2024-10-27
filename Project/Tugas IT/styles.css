@@ -1,0 +1,200 @@
+:root {
+    --color1: #fff
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#opening {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat ;
+    text-align: center;
+}
+
+.opening-title {
+    position: relative;
+    top: 200px ;
+    font-size: 5em;
+    color: #a6915c;
+}
+
+.opening-couple-name { 
+    position: relative;
+    top: 210px;
+    color: #a6915c;
+    font-weight: bold;
+}
+
+.opening-couple-name:hover {
+    background-color: #000;
+    padding-right: 210px;
+    transition: ease-in 2s;
+}
+
+#fill {
+    position: absolute;
+    width: 100%;
+    height: 50em;
+    top: 40em;
+    border-top: 10px solid #68531f;
+    background: /*linear-gradient(#ddd4b3, #fff );*/ #2d2d2e;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.fill-title:nth-child(1) {
+    color: var(--color1);
+    padding-bottom: 20px;
+    font-size: 20px ;
+
+}
+
+.fill-title:nth-child(2) {
+    color: var(--color1);
+    padding-bottom: 20px;
+}
+
+
+.fill-couple-name {
+    color: #a6915c;
+    font-size: 1.5em;
+    position: relative;
+}
+
+.i:nth-child(1) {
+    font-size: 1.5em;
+    bottom: 50px;
+    position: relative;
+}
+
+.i:nth-child(2) {
+    font-size: 5em;
+    color: #a6915c;
+    position: relative;
+
+}
+
+.i:nth-child(3) {
+    font-size: 1.5em;
+    position: relative;
+}
+
+.timetable {
+    color: var(--color1);
+    bottom: 130px;
+    padding-left: 390px;
+    position: relative;
+}
+
+.t:nth-child(1) {
+    color: var(--color1);
+    position: relative;
+    bottom: 150px;
+    left: 310px;
+    font-weight: bolder;
+
+}
+
+.t:nth-child(2) {
+    color: var(--color1);
+    position: relative;
+    bottom: 110px;
+    font-size: 1.5em;
+    left: 140px;
+}
+
+.t:nth-child(3) {
+    color: var(--color1);
+    position: relative;
+    font-size: 2em;
+    left: 150px;
+    bottom: 105px;
+}
+
+.t:nth-child(4) {
+    color: var(--color1);
+    position: relative;
+    font-size: 4em;
+    left: 160px;
+    bottom: 90px;
+}
+
+.t:nth-child(5) {
+    color:var(--color1);
+    position: relative;
+    font-size: 2em;
+    left: 165px;
+    bottom: 105px;
+}    
+
+.t:nth-child(6) {
+    color: var(--color1);
+    position: relative;
+    bottom: 110px;
+    font-size: 1.5em;
+    left: 172px;
+}
+
+.p {
+    color: var(--color1);
+    position: relative;
+    bottom: 80px;
+    left: 190px;
+}
+
+.maps {
+    position: relative;
+    top: 80px;
+    right: 245px;
+    z-index: 2;
+    border: black solid 15px;
+}
+
+.fill-closing {
+    position: relative;
+    bottom: 450px;
+    color: var(--color1);
+}
+
+.fill-regard {
+    position: relative;
+    bottom: 420px;
+    color: var(--color1);
+}
+
+#demo {
+  font-size: 2em;
+  position: relative;
+  color: var(--color1);
+  bottom: 460px
+  
+}
+
+/* Border */
+.border {
+    border: #fff solid 2px;
+    height: 200px;
+    position: relative;
+    bottom: 260px;
+    right: 200px;
+    width: 49em;
+    left: 400px;
+}
+
+.border-maps {
+    border: #68531f solid 15px;
+    height: 249px;
+    width: 400px;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+}
+
+
+
+
+
