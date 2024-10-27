@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       <h1 id="title">Survey Form</h1>
+       <p id="description">Thank you</p>
+    </header>
+    <form id="survey-form">
+       <fieldset class="first-label">
+         <label id="name-label">Name: <input type="text" id="name" name="fname" required placeholder="Enter your name"></label>
+         <br>
+         <label id="email-label">Email: <input type="email" id="email" required placeholder="Enter your email"><label>
+         <br>
+         <br>
+         <label id="number-label">Age: <input type="number" id="number" min="13" max="120" placeholder="Age"></label>
+      </fieldset>
+      <fieldset class="second-label">
+          <p>What is your gender?
+          <br>
+          <label for="male">Male <input type="radio" value="blue" name="gender"></label>
+          &nbsp;
+          <label for="female">Female <input type="radio" value="pink" name="gender"></label>
+          </p>
+          <br>
+          <label for="dropdown">Where did you find us?
+            <select id="dropdown">
+              <option value="insta">Instagram</option>
+              <option value="facebook">Facebook</option>
+              <option value="youtube">Youtube</option>
+            </select>
+          </label>
+      </fieldset>
+      <fieldset class="third-label">
+          <p>What is your skin?
+          <br>
+          <input type="checkbox" value="skin"> White &nbsp;
+          <input type="checkbox" value="skin"> Black
+          </p>
+      </fieldset>
+      <fieldset class="fourth-label">
+          <label for="bio">Provide a bio:
+            <br>
+            <textarea rows="3" cols="30" placeholder="I like coding..."></textarea>
+         </label>
+      </fieldset>
+      <fieldset class="fifth-label">
+        <input id="submit" type="submit" value="Submit" >
+      </fieldset>
+    </form>
+</body>
+</html>
