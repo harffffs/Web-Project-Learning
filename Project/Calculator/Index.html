@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="calculator">
+        <input type="text" placeholder="0" id="calc">
+        <div class="calculator-keys">
+            <ul class="row-1">
+                <li><input type="button" class="key-operator" value="C" onclick="clr()"></li>
+                <li><input type="button" class="key-operator" value="D" onclick="del()"></li>
+                <li><input type="button" class="key-operator" value="%" onclick="myFunction('%')"></li>
+                <li><input type="button" class="key-operator" value="/" onclick="myFunction('/')"></li>
+            </ul>
+            <ul class="row-2">
+                <li><input type="button" class="key-number" value="7" onclick="myFunction(7)"></li>
+                <li><input type="button" class="key-number" value="8" onclick="myFunction(8)"></li>
+                <li><input type="button" class="key-number" value="9" onclick="myFunction(9)"></li>
+                <li><input type="button" class="key-operator" value="*" onclick="myFunction('*')"></li>
+            </ul>
+            <ul class="row-3">
+                <li><input type="button" class="key-number" value="4" onclick="myFunction(4)"></li>
+                <li><input type="button" class="key-number" value="5" onclick="myFunction(5)"></li>
+                <li><input type="button" class="key-number" value="6" onclick="myFunction(6)"></li>
+                <li><input type="button" class="key-operator" value="-" onclick="myFunction('-')"></li>
+            </ul>
+            <ul class="row-4">
+                <li><input type="button" class="key-number" value="1" onclick="myFunction(1)"></li>
+                <li><input type="button" class="key-number" value="2" onclick="myFunction(2)"></li>
+                <li><input type="button" class="key-number" value="3" onclick="myFunction(3)"></li>
+                <li><input type="button" class="key-operator" value="+" onclick="myFunction('+')"></li>
+            </ul>
+            <ul class="row-5">
+                <li><input type="button" class="key-number" value="00" onclick="myFunction('00')"></li>
+                <li><input type="button" class="key-number" value="0" onclick="myFunction(0)"></li>
+                <li><input type="button" class="key-number" value="." onclick="myFunction('.')"></li>
+                <li><input type="button" class="key-operator" value="=" onclick="slv()"></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
